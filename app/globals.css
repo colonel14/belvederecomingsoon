@@ -60,10 +60,10 @@ html,
 .text__underline::after {
   content: "";
   position: absolute;
-  bottom: 11px;
-  left: 0;
-  width: 100%;
-  height: 19px;
+  bottom: 6px;
+  left: 2px;
+  width: 237px;
+  height: 22px;
   max-width: 100%;
   background: #046a38;
   z-index: -1;
@@ -124,8 +124,12 @@ html,
 }
 .app__button:hover {
   background: #046a38;
+  border-color: #046a38;
 }
 @media screen and (max-width: 600px) {
+  .text__underline::after {
+    width: 100%;
+  }
   .container {
     padding: 0 1rem;
   }
