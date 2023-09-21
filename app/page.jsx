@@ -25,7 +25,11 @@ export default function Home() {
               We <span className="text__underline">Prepare</span> For Life.
             </h1>
             <h4 className="hero__subtitle">Website coming soon</h4>
-            <Link href="/" className="app__button">
+            <Link
+              href="/Belvedere School, Cairo_School Prospectus.pdf"
+              className="app__button"
+              target="blank"
+            >
               view our prospectus <ChevronRight />
             </Link>
           </div>
