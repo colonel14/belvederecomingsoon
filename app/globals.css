@@ -106,11 +106,10 @@ html,
 }
 
 .app__button {
-  width: fit-content;
-  margin: 0 auto;
   padding: 12px 30px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
   border: 1px solid #fff;
   border-radius: 35px;
@@ -120,8 +119,10 @@ html,
   line-height: 23px;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 42px;
+  width: 284px;
+  max-width: 100%;
 }
+
 .app__button:hover {
   background: #046a38;
   border-color: #046a38;
