@@ -29,7 +29,7 @@ export default function Home() {
               <Link href="https://lms.belvedereschoolcairo.com/en/applicantregister/register" className="app__button apply__button" >
                 Apply Now <ChevronRight />
               </Link>
-              <Link href="/Belvedere School, Cairo _ School Prospectus [Digital].pdf" className="app__button" target="blank">
+              <Link href="/Prospectus.pdf" className="app__button" target="blank">
                 view our prospectus <ChevronRight />
               </Link>
             </div>
