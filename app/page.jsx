@@ -30,7 +30,7 @@ export default function Home() {
                 Apply Now <ChevronRight />
               </Link>
               <Link href="/Prospectus.pdf" className="app__button" target="blank">
-                view our prospectus <ChevronRight />
+                 our prospectus <ChevronRight />
               </Link>
             </div>
           </div>
